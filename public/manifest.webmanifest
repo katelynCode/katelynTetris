@@ -1,0 +1,18 @@
+{
+  "id": "./",
+  "name": "Katelyn's Tetris",
+  "short_name": "Katelyn's",
+  "description": "Katelyn's personal take on classic Tetris. A little code, a lot of heart.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf8ff",
+  "theme_color": "#7352b8",
+  "orientation": "portrait-primary",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "./assets/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "./assets/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

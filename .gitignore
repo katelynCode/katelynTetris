@@ -1,0 +1,18 @@
+node_modules/
+dist/
+test-results/
+playwright-report/
+.recording/
+coverage/
+playwright/.cache/
+.env
+.env.*
+!.env.example
+*.log
+*.tmp
+*.temp
+*.tsbuildinfo
+Thumbs.db
+.DS_Store
+# Keep the uncropped personal original out of the shared repository.
+Image (60).jpg

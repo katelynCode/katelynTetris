@@ -1,0 +1,21 @@
+{
+  "name": "katelyns-tetris",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A personal, offline-ready portrait-tile falling-block game.",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "assets": "node scripts/assets.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test tests/engine.test.mjs",
+    "test:browser": "playwright test",
+    "demo": "node scripts/record-demo.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.1",
+    "ffmpeg-static": "^5.2.0",
+    "sharp": "^0.35.5"
+  }
+}

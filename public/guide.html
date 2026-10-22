@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#7352b8">
+  <meta name="description" content="Play Katelyn's classic portrait-tile Tetris, watch a gameplay preview, and install it on your phone or computer.">
+  <title>A quick little guide - Katelyn's Tetris</title>
+  <link rel="icon" href="./assets/icon-192.png">
+  <link rel="apple-touch-icon" href="./assets/icon-180.png">
+  <link rel="manifest" href="./manifest.webmanifest">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./guide.js"></script>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="./"><img src="./assets/icon-192.png" width="43" height="43" alt=""><span>Katelyn's <strong>TETRIS</strong></span></a><a class="button button-primary" href="./">Let's play <span aria-hidden="true">&#8594;</span></a></header>
+  <main class="guide-main">
+    <div class="eyebrow"><span class="tiny-block"></span> YOUR QUICKSTART GUIDE</div>
+    <h1>A little less scrolling.<br>A little more <em>stacking.</em></h1>
+    <p class="guide-lead">Make a little space in your day. Here's everything you need to play, install, and share Katelyn's personal portrait-tile puzzle.</p>
+    <section class="guide-section" id="play">
+      <h2>01 / Find your flow</h2>
+      <ol><li>Watch the landing-page preview, then select <strong>Play the game</strong> and <strong>Let's play</strong>. No sign-up needed.</li><li>Move and rotate the falling shapes to fill complete horizontal rows. Full rows clear, creating room for the next pieces.</li><li>Use the outlined <strong>ghost piece</strong> to see where your piece will land. Save a useful shape with <strong>Hold</strong> once per falling piece; Up next shows the next three pieces.</li><li>Every 10 cleared lines brings a new level and faster falling pieces. There is no piece limit or preset puzzle. The game ends when a piece cannot spawn or locks above the board.</li></ol>
+      <p><strong>Classic endless play is back.</strong> Keep clearing rows and improving your personal best. Start fresh resets the board after confirmation; it does not erase your best score.</p>
+      <div class="guide-grid"><article><h3>On a keyboard</h3><p><kbd>&larr;</kbd> <kbd>&rarr;</kbd> Move<br><kbd>&uarr;</kbd> / <kbd>X</kbd> Rotate clockwise<br><kbd>Z</kbd> Rotate counterclockwise<br><kbd>&darr;</kbd> Soft drop<br><kbd>space</kbd> Hard drop<br><kbd>C</kbd> / <kbd>Shift</kbd> Hold<br><kbd>P</kbd> / <kbd>Esc</kbd> Pause or resume</p></article><article><h3>On your phone</h3><p>Use the buttons below the board. Hold the left, right, or down button to repeat.</p><p>Or use the board itself: <strong>tap</strong> to rotate, <strong>drag sideways</strong> to move, and <strong>swipe down</strong> to hard drop. A down swipe must travel at least 55 pixels with less than 40 pixels of sideways motion.</p></article></div>
+      <p><strong>A few little comforts:</strong> sound is off by default. The music-note button enables gentle synthesized tones. Switch off Portrait tiles for plain colors. The game automatically pauses when you switch tabs or apps. Return and press Keep playing.</p>
+      <p>The board is a visual canvas game. Controls support keyboard and touch, and important events are announced to assistive technology; this is not a fully nonvisual playable game.</p>
+    </section>
+    <section class="guide-section" id="video">
+      <h2>02 / See it fall into place</h2>
+      <video controls playsinline preload="metadata" poster="./media/gameplay-poster.jpg" aria-label="Simulated gameplay: portrait pieces rotate, fall, and clear rows" aria-describedby="video-description">
+        <source src="./media/gameplay.mp4" type="video/mp4">
+        <track kind="captions" src="./media/gameplay.vtt" srclang="en" label="English" default>
+        Your browser cannot play this video. <a href="./media/gameplay.mp4">Download the MP4</a> instead.
+      </video>
+      <p class="video-caption" id="video-status">A 35-second simulated classic game recorded from this app. No audio. The video needs a connection or a separate download; the game itself works offline.</p>
+      <p id="video-description"><strong>Video description:</strong> A computer-controlled game rotates and drops Katelyn's colorful portrait pieces onto the board. Complete rows disappear, the score and line counts rise, and new pieces keep arriving. The side panels show the next pieces, level, and score. This is a demonstration, not a recording of a human player.</p>
+      <p>On the landing page, this preview starts automatically, muted and inline. Use <strong>Pause preview</strong> or the video controls to stop it. Reduced-motion preferences keep it paused; browsers that block autoplay show a manual Play preview option. Starting the game pauses the preview. The video in this guide starts only when you press play.</p>
+      <p><a href="./?demo">Try the live simulated game</a> (works offline after setup), or <a href="./media/gameplay.mp4" download>save the video</a> to watch later. Demo scores never replace your personal best.</p>
+    </section>
+    <section class="guide-section" id="install">
+      <h2>03 / Your game, to go</h2>
+      <p>Visit the HTTPS-hosted game online once and wait for <strong>Ready for offline play</strong> below the board. Install from that same URL. Opening the HTML file directly will not enable installation or offline support.</p>
+      <div class="guide-grid"><article><h3>iPhone &amp; iPad</h3><p>Open the site in <strong>Safari</strong>. Tap <strong>Share</strong>, select <strong>Add to Home Screen</strong>, then <strong>Add</strong>. If offered, keep Open as Web App enabled. Launch it from the new home-screen icon.</p></article><article><h3>Android</h3><p>Open the site in <strong>Chrome</strong> and tap <strong>Install app</strong>. If no prompt appears, open Chrome's menu and choose Install app or Add to Home screen. Menu wording varies by browser version.</p></article><article><h3>Desktop Chrome</h3><p>Click <strong>Install app</strong> on the page or the install icon in Chrome's address bar. Alternatively, open Chrome's menu and look for the install option under Cast, save, and share.</p></article><article><h3>Offline &amp; updates</h3><p>After setup, the game, portraits, and this guide are cached locally. Browser storage eviction or clearing site data removes that cache. Reopen online to restore it. When an update is ready, close all game windows and reopen.</p></article></div>
+      <p>This is an installable website, not an App Store or Google Play package. A browser can decline or hide installation; the normal website still works. Browser and installed-app storage may be separate, especially on iOS.</p>
+    </section>
+    <section class="guide-section" id="scoring">
+      <h2>04 / The little details</h2>
+      <table class="guide-table"><thead><tr><th>Action</th><th>Points</th></tr></thead><tbody><tr><td>Clear 1 / 2 / 3 / 4 lines at once</td><td>100 / 300 / 500 / 800 &times; current level</td></tr><tr><td>Soft drop</td><td>1 per cell</td></tr><tr><td>Hard drop</td><td>2 per cell</td></tr></tbody></table>
+      <p>Pieces come from shuffled sets of seven. Rotation uses SRS wall kicks. A grounded piece gives you a half-second to adjust, with up to 15 grounded movement/rotation resets. There are no combo, back-to-back, or T-spin bonuses.</p>
+      <p>Your classic personal best and portrait setting stay in this browser's local storage. Older puzzle-mode records are left untouched but are not used. There is no tracking, analytics, account, cloud save, or server-side data collection. A refresh starts a new game; an in-progress board is not saved.</p>
+    </section>
+    <section class="guide-section" id="sharing">
+      <h2>05 / Code is open. Joy is shared.</h2>
+      <p>The original game code is <strong>MIT licensed</strong>. The supplied portrait, its crops, recolors, and photo-containing screenshots/video have a <strong>separate game-only redistribution license</strong>: share them with Katelyn's Tetris and its documentation, not as standalone photos or unrelated assets. Modified versions of this game may retain the photos under the same terms.</p>
+      <p>The repository's <code>LICENSE</code> and <code>PHOTO-LICENSE.md</code> contain the terms. The combined package is not entirely MIT-licensed, and the restricted photos are not open-source assets. To reuse the code for an unrelated game, replace the photos and photo-containing media with assets you can license yourself.</p>
+      <p>This is an independent personal project, not affiliated with or endorsed by The Tetris Company. Tetris is a trademark of its respective owners; the code and photo licenses grant no trademark rights. Review naming rights before public or commercial distribution.</p>
+    </section>
+    <section class="guide-section"><h2>Your next little break is waiting.</h2><a class="button button-primary" href="./">Let's play <span aria-hidden="true">&#8594;</span></a><p id="connection-status" role="status">Preparing offline guide...</p></section>
+  </main>
+  <footer><span>Made personal. Made to play.</span><a href="./">Back to Katelyn's Tetris</a></footer>
+  <div id="toast" role="status" hidden></div>
+</body>
+</html>
